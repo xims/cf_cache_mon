@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>CloudFlare CDN Cache Monitor</title>
+
+		<link rel="stylesheet" type="text/css" href="jq/jquery-ui-1.11.4c.min.css">
+		<link rel="stylesheet" type="text/css" href="jq/jquery-ui-1.11.4.theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/cf_cache_mon.css">
+
+		<script src="jq/jquery-2.2.2.min.js"></script>
+		<script src="jq/jquery-ui-1.11.4c.min.js"></script>
+		<script src="js/cf_cache_mon.js"></script>
+	</head>
+	<body>
+
+		<div class="top-controls">
+			<ul>
+				<li><button id="close">Close</button></li>
+				<li><button id="clear">Clear</button></li>
+				<li><button id="pause">Pause</button></li>
+			</ul>
+		</div>
+
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-cf">CF headers</a></li>
+				<li><a href="#tabs-all">All headers</a></li>
+			</ul>
+			<div id="tabs-cf"></div>
+			<div id="tabs-all"></div>
+		</div>
+
+	</body>
+</html>
