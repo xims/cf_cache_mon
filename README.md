@@ -1,4 +1,5 @@
 # CloudFlare Cache Monitor
+## Chrome Extension
 
 Simple Chrome extension that show cache status of all loaded resources of the current page.
 
