@@ -12,21 +12,21 @@
 	"version_name": "init",
 
 
-	"icons": { "52": "icons/cf_mon_ico.png"
+	"icons": {
+		"52": "icons/cf_mon_ico.png",
+		"128": "icons/ico_web_128.png"
 	},
 
 	"browser_action": {
 		"default_title": "CF Cache Mon",
-		// "default_icon": "icons/http_trace_button.png",
 		"default_icon": {
-				"52": "icons/cf_mon_ico.png"
+				"52": "icons/cf_mon_ico.png",
+				"128": "icons/ico_web_128.png"
 		}
-		// "default_popup": "popup.html"
 	},
 
 	"background": {
 		"scripts": ["js/background.js"]
-		// "persistent": false
 	},
 
 	"permissions": [
